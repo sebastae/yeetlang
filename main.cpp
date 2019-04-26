@@ -1,4 +1,7 @@
+#include <iostream>
 #include "ModeController.h"
+#include "YeetParser.h"
+#include "Logger.h"
 
 int main(int argc, char* argv[]) {
 
@@ -9,5 +12,8 @@ int main(int argc, char* argv[]) {
         // Interpret file
         return ModeController::fileMode(argv[0]);
     }
+
+
+    return 0;
 
 }
